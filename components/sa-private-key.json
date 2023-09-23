@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "gmap-line-app",
+  "private_key_id": "2c3b21582cc71099a7f0062a9e3859610729a020",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC5kUlsgnHB+uQ0\nK5r68dmjdnALLSn3vC1qIjWB5+lCefeqkQ5LvLV9roQFxbfBawbJzwrfCQx3BNJb\nUUBjiQjwgD943YMubUWNCvSelDQtG+68BUe3mW7bZmnQ1QktU4MIvTRMcQVfpJ/n\nq3FW2DaDAo8Px+X21Ph0SDXj781AsBogVpm9f4trsMclTvSQA5ZV0J1LqqHNtTyg\ndLdiwrhVQdNt6GulHk1wlzqXnXZznGbiQiGNJ4OVfjSEvHD/DPLmkP9X/6NFnFqm\n3709Fj6gEqE81nH6WoQ2CZrIeZ8e5ilXJVfJh+JEa+UoOMyX3vVhz/KwWEjL16Zt\nWsRAB0TFAgMBAAECggEAMkmM/DrdWRQEg57NgPPJZuLRujWjCd+U7w4WMf4G2Fz1\nIOPuW9fn1wdT/7x075VxYX8aExcAqcBEwTpjmJWqNoKKsNZWll5GWtJ9N/wxp4fK\nSmmj5b1OrWYzhsQ0mHPpLpUXdx+ptSGHs+Bh9obhPt+SpVQmnZ1ZNynacMqrdLvN\nu9bFFy6rWjWZKUn9vJlZwjvwvzpovBEN8ogaMpOW5dpZWl0Xh7sJ2UZSQ8IYsZAo\nH2vO5KQmtVam8hjvwtFWq81eWPCTQzl4h6gtO807ZsLrKkoHwS/W5SiDsyeqBpZ2\n3HHiGAJcraA8R+CyX9F++c7FyZYu9Saw+Qxo6DjkgQKBgQDujMjMcgdRxTl2MX8p\nEX9PPtN+LZCwjF/TufAQafXKqaXKkIuoJ+CDQhLTadCg0GOVRmFme3px57e0AHcp\ngs/c2LMMjJZL7vuncGpozvG7trG5FhZMbtEpw0uemUnDzf9ykY4dxPmHl69AYSug\nGfR1ZiqZKLDZdob8hDm1r/67pwKBgQDHJFM1VrdhpunkHFt0rp3JOqeDvf+JJb9b\nAsxs7f4lk9YqPPst+Jd7eXg+cU/iRP9AjF5y4Avs3yscS/+aHL3fNI4BALPjvNgc\n00bnDdGcdD4NyM8bsmdViG4PKJDDIAAevou3VpiqPhQj9/0czTJ5XMYa6JO1SBZ0\n3o7PEotZswKBgG3ZcMIMpGg4POy7gEYGI6z3TmblTqKuEZarIew9Dw2DL7Bm/Ziy\nvEVVUNv/9y2GqMTdww5xQAJh5QtDx5va/CNDurfFqZRP+ZyyPJ4E5fY9+/syO5R4\n12K25wSirAA5xS8Z7eqxgQK6i95GoNM6AINrR6R9w2pwlVqE/Ro4cEIzAoGBAILz\nAQBHCIlfL9f/SahdloYXWsYHrzwpJT6chX5vtTpSj3bw6J6fJEVeZ9Jvwn7grhRs\n+UKCz3Swf3G5C9f0ZGqc7W/9XU05BcdWqv4OmTJPQergjEgDNW4KK40uOJsGtO2C\nkO87M2JnNek9DiTdTf5+IgrZux9uys2I99F0uUt/AoGAeLk5g7aP/78S1utjzGbS\nMh7LS2eVJ5YubMUE6N+AOvdOTqTKrY3wHZUWX6+bewDm26KcUKL/g6x8Uceau8wq\nmFa+aXzeYQRTxCqL2EmvKzeFRDiWFCnOj/C1xwFkFKJAskOipsMoCcbmb3Q9vykv\n9Pt+NhOgKzofSbSJOxXEoxs=\n-----END PRIVATE KEY-----\n",
+  "client_email": "gmap-firestore@gmap-line-app.iam.gserviceaccount.com",
+  "client_id": "118106180217180459290",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/gmap-firestore%40gmap-line-app.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

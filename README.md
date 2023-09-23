@@ -377,6 +377,10 @@ export const SearchProvider = ({ children }) => {
 }
 ```
 
+### How to access Firestore
+
+see [Using Firebase and Firestore in a Next.js Application: A Step-by-Step Tutorial on Medium](https://kenanbek.medium.com/using-firebase-and-firestore-in-a-next-js-application-a-step-by-step-tutorial-5a9f22df18cf)
+
 ## Support
 
 Using the template? Support this effort by giving a star on GitHub, sharing your own blog and giving a shoutout on Twitter or becoming a project [sponsor](https://github.com/sponsors/timlrx).

@@ -10,14 +10,16 @@ import type { Authors, Blog } from 'contentlayer/generated'
 import PostSimple from '@/layouts/PostSimple'
 import PostLayout from '@/layouts/PostLayout'
 import PostBanner from '@/layouts/PostBanner'
+import PostHero from '@/layouts/PostHero'
 import { Metadata } from 'next'
 import siteMetadata from '@/data/siteMetadata'
 
-const defaultLayout = 'PostLayout'
+const defaultLayout = 'PostHero'
 const layouts = {
   PostSimple,
   PostLayout,
   PostBanner,
+  PostHero,
 }
 
 export async function generateMetadata({
@@ -124,6 +126,7 @@ export default async function Page({ params }: { params: { slug: string[] } }) {
       />
       <Layout content={mainContent} authorDetails={authorDetails} next={next} prev={prev}>
         <MDXLayoutRenderer code={post.body.code} components={components} toc={post.toc} />
+        <div>Layout: {post.layout}</div>
       </Layout>
     </>
   )
