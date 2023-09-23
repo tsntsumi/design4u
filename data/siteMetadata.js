@@ -1,23 +1,22 @@
 /** @type {import("pliny/config").PlinyConfig } */
 const siteMetadata = {
-  title: 'Next.js Starter Blog',
-  author: 'Tails Azimuth',
-  headerTitle: 'TailwindBlog',
-  description: 'A blog created with Next.js and Tailwind.css',
-  language: 'en-us',
+  title: 'DESIGN4U -- Design Realizes Your Ideal',
+  author: 'TSUTSUMI Kikuo - Alizza Ideal',
+  headerTitle: 'DESIGN Ur PRESENTATION',
+  description:
+    '全てのプレゼンをデザインして、理想を現実化する -- 心理学を使って、そそるプレゼン資料をデザインすれば、口下手・コミュ障でも３つのエーション(-ATION)問題を解決。プレゼンテーション(Present-ATION)で伝えられ、ネゴシエーション(Negoti-ATION)で分かりあえ、コミュニケーション(Communic-ATION)で繋がれる。ビジネスでもプライベートでも人間関係がうまく行き、あなたの理想へ進む道のりもデザインできます',
+  language: 'ja',
   theme: 'system', // system, dark or light
-  siteUrl: 'https://tailwind-nextjs-starter-blog.vercel.app',
-  siteRepo: 'https://github.com/timlrx/tailwind-nextjs-starter-blog',
+  siteUrl: 'https://www.alizza-ideal.com',
+  siteRepo: 'https://github.com/tsntsumi/design4u',
   siteLogo: '/static/images/logo.png',
   socialBanner: '/static/images/twitter-card.png',
-  mastodon: 'https://mastodon.social/@mastodonuser',
-  email: 'address@yoursite.com',
-  github: 'https://github.com',
-  twitter: 'https://twitter.com/Twitter',
-  facebook: 'https://facebook.com',
-  youtube: 'https://youtube.com',
-  linkedin: 'https://www.linkedin.com',
-  locale: 'en-US',
+  email: 'kikuo@alizza-ideal.com',
+  github: 'https://github.com/tsntsumi',
+  twitter: 'https://twitter.com/tsntsumi',
+  facebook: 'https://facebook.com/alizza.ideal',
+  youtube: 'https://youtube.com/design-for-u',
+  locale: 'ja-JP',
   analytics: {
     // If you want to use an analytics provider you have to add it to the
     // content security policy in the `next.config.js` file.
@@ -33,14 +32,14 @@ const siteMetadata = {
     // posthogAnalytics: {
     //   posthogProjectApiKey: '', // e.g. 123e4567-e89b-12d3-a456-426614174000
     // },
-    // googleAnalytics: {
-    //   googleAnalyticsId: '', // e.g. G-XXXXXXX
-    // },
+    googleAnalytics: {
+      googleAnalyticsId: process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID, // e.g. G-XXXXXXX
+    },
   },
   newsletter: {
     // supports mailchimp, buttondown, convertkit, klaviyo, revue, emailoctopus
     // Please add your .env file and modify it according to your selection
-    provider: 'buttondown',
+    provider: 'firebase',
   },
   comments: {
     // If you want to use an analytics provider you have to add it to the
@@ -69,7 +68,7 @@ const siteMetadata = {
       // example: https://giscus.app/themes/custom_example.css
       themeURL: '',
       // This corresponds to the `data-lang="en"` in giscus's configurations
-      lang: 'en',
+      lang: 'ja',
     },
   },
   search: {
