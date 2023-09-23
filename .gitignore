@@ -45,3 +45,9 @@ yarn-error.log*
 
 # Contentlayer
 .contentlayer
+
+/.firebase/
+*.bak
+
+firebase-debug.log
+firestore-debug.log
