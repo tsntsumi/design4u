@@ -51,5 +51,7 @@ yarn-error.log*
 
 firebase-debug.log
 firestore-debug.log
+
 *-serviceaccountkey.json
 /app/tag-data.json
+
