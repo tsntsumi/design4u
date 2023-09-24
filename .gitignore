@@ -51,4 +51,4 @@ yarn-error.log*
 
 firebase-debug.log
 firestore-debug.log
-alizza-ideal-web-firebase-adminsdk-*.json
+*-serviceaccountkey.json
