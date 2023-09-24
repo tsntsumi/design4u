@@ -1,8 +1,6 @@
 // Import the functions you need from the SDKs you need
 import { initializeApp } from 'firebase/app'
 
-export const admin = require('firebase-admin')
-
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 
@@ -22,11 +20,5 @@ export const firebaseConfig = {
 export const app = initializeApp(firebaseConfig)
 //export const analytics = getAnalytics(app)
 // export const db = getFirestore(app)
-
-const serviceAccount = require(`@/libs/alizza-ideal-web-firebase-adminsdk-serviceaccountkey.json`)
-
-admin.initializeApp({
-  credential: admin.credential.cert(serviceAccount),
-})
 
 export default app
