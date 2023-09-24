@@ -15,7 +15,7 @@ export default function Head() {
       <meta content="width=device-width, initial-scale=1" name="viewport" />
       <script
         src="https://giscus.app/client.js"
-        data-repo="tsntsumi/gmap"
+        data-repo="tsntsumi/design4u"
         data-repo-id="R_kgDOKPQRsg"
         data-category="Announcements"
         data-category-id="DIC_kwDOKPQRss4CZE1C"
@@ -23,13 +23,12 @@ export default function Head() {
         data-strict="0"
         data-reactions-enabled="1"
         data-emit-metadata="0"
-        data-input-position="top"
+        data-input-position="bottom"
         data-theme="preferred_color_scheme"
         data-lang="ja"
-        data-loading="lazy"
-        crossOrigin="anonymous"
+        crossorigin="anonymous"
         async
-      ></script>{' '}
+      ></script>
       <script
         async
         src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9498739221834067"
