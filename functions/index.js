@@ -22,11 +22,6 @@ const hostName = process.env.HOST_NAME
 // Create and deploy your first functions
 // https://firebase.google.com/docs/functions/get-started
 
-exports.helloWorld = onRequest((request, response) => {
-  logger.info('Hello logs!', { structuredData: true })
-  response.send('Hello from Firebase!')
-})
-
 const leadById = async (subscid, status) => {
   const param = !subscid ? `status=${status}` : `subscid=${subscid}&status=${status}`
   const res = await fetch(`${hostName}/db/leads?${param}`, {
