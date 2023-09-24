@@ -23,7 +23,7 @@ export const app = initializeApp(firebaseConfig)
 //export const analytics = getAnalytics(app)
 // export const db = getFirestore(app)
 
-const serviceAccount = require(`@/libs/alizza-ideal-web-firebase-adminsdk-38g70-7ff655a16e.json`)
+const serviceAccount = require(`@/libs/alizza-ideal-web-firebase-adminsdk-serviceaccountkey.json`)
 
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
