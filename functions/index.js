@@ -89,7 +89,7 @@ const sendByGmail = async (lead, letter) => {
       if (err) {
         result.error = JSON.stringify(err, null, 2)
         result.success = false
-        logger.error(`Error on send mail by Gmail: ${error}`)
+        logger.error(`Error on send mail by Gmail: ${err}`)
         return
       }
       const str = JSON.stringify(info, null, 2)
