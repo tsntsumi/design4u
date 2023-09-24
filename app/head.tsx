@@ -26,7 +26,7 @@ export default function Head() {
         data-input-position="bottom"
         data-theme="preferred_color_scheme"
         data-lang="ja"
-        crossorigin="anonymous"
+        crossOrigin="anonymous"
         async
       ></script>
       <script
