@@ -17,8 +17,9 @@ import {
 } from '@react-email/components'
 import * as React from 'react'
 const { render } = require('@react-email/render')
+const site_url = process.env.SITE_URL || 'https://www.alizza-ideal.com'
 
-export const imageUrl = 'https://gmap.alizza-ideal.com/images'
+export const imageUrl = `${site_url}/images`
 
 export function ToClient({ userImage, teamImage }) {
   return (
@@ -78,9 +79,7 @@ export function Footer({ userName, userId, teamName, inviteFromLocation }) {
         {userId && (
           <>
             もし、この種の情報を受信したくない場合は、
-            <Link href={`https://gmap.alizza-ideal.com/unsub/${userId}`}>
-              こちらの登録解除フォーム
-            </Link>
+            <Link href={`${site_url}/unsub/${userId}`}>こちらの登録解除フォーム</Link>
             から何時でも発信停止することができます。
           </>
         )}
