@@ -52,6 +52,8 @@ export default function Home({ posts }) {
               実は私も、うちのカミさんの実家とビデオチャットするとき、
               思いが通じないでヤキモキすることが多々ありありました。
             </p>
+          </div>
+          <div className="text-right w-full px-4">
             <Link
               href="/blog/rules-for-presentaitions-that-stick-in-the-brain-directly"
               className="text-xs underline text-blue-400"
