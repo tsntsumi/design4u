@@ -41,16 +41,22 @@ export default function Home({ posts }) {
             </ul>
             <p>
               仕事の上だけでなく、遠く離れた恋人や両親や親戚などとも、
-              ビデオチャット会話するときとか・・・。
+              ビデオチャットで会話することも多くなってきました・・・。
             </p>
             <p>
-              こんな時代になって、仕事でもプライベートでも、
-              なかなか思いが通じないと悩んでいる人が大勢います。
+              こんな時代、仕事でもプライベートでも、
+              なかなか思いが伝わらないと悩んでいる人が大勢います。
             </p>
             <p>
               実は私も、うちのカミさんの実家とビデオチャットするとき、
               思いが通じないでヤキモキすることが多々ありありました。
             </p>
+            <Link
+              href="/blog/rules-for-presentaitions-that-stick-in-the-brain-directly"
+              className="text-xs underline text-blue-400"
+            >
+              ブログへつづく...
+            </Link>
           </div>
         </section>
         <div className="space-y-2 pb-8 pt-6 md:space-y-5">
