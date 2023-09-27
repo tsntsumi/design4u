@@ -38,21 +38,22 @@ const title = 'ご協力ありがとうございます。治療家エイド・�
 
 const productName = '治療院テンプレート集'
 const offerTitle = '治療家エイド・治療院テンプレート集テスト販売モニター'
+const site_url = process.env.SITE_URL || 'https://www.alizza-ideal.com'
 
 const TextCenter = ({ children, className }) => {
   return <Text className={`text-center my-4 ${className}`}>{children}</Text>
 }
 
 function StepMail({
-  userImage = `https://gmap.alizza-ideal.com/static/client-shop.png`,
+  userImage = `${site_url}/static/client-shop.png`,
   offeredByUsername = '堤',
   offeredByEmail = 'kikuo@alizza-ideal.com',
   teamName = 'Alizza Ideal',
-  teamImage = `https://gmap.alizza-ideal.com/static/therapistaid-profile.png`,
+  teamImage = `${site_url}/static/therapistaid-profile.png`,
   offerLink = 'https://drive.google.com/file/d/1MPB0hO6OsKWUPfSsrls8PdqqY1eZN9WF/view?usp=sharing',
   offerFromIp = '126.166.5.245',
   offerFromLocation = '茨城県、水戸市',
-  profImage = `https://gmap.alizza-ideal.com/static/profile-round.png`,
+  profImage = `${site_url}/static/profile-round.png`,
 }) {
   const previewText =
     'ご登録ありがとうございました。HTMLメールでお送りしています。うまく表示できない場合は、メールアプリの設定変更をお願いします'

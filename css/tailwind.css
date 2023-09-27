@@ -29,3 +29,55 @@ input:-webkit-autofill:focus {
     background-color 600000s 0s,
     color 600000s 0s;
 }
+
+@layer base {
+    body {
+        text-align: justify;
+    }
+    ul {
+        @apply list-disc pl-8 pr-4 my-2;
+    }
+    dl dt {
+        @apply font-bold;
+    }
+    dl dd {
+        @apply indent-0 ml-8 mr-2;
+    }
+    p {
+        @apply indent-4 leading-relaxed my-1;
+    }
+    blockquote {
+        @apply ml-4 mr-2 my-4;
+    }
+
+    .newspaper {
+        display: flex;
+        flex-flow: wrap;
+        padding: 0;
+        @apply flex-row bg-slate-50 dark:bg-slate-700;
+    }
+    .newspaper + .newspaper {
+        margin: 0.5rem auto
+    }
+    .newspaper ul {
+        @apply pl-8 pr-4 my-2;
+    }
+    .newspaper > * {
+        flex: auto;
+        margin: 0.1rem auto;
+        padding: 0.1rem .25rem;
+        max-width: 100%;
+    }
+    @media(min-width: 640px) {
+        .newspaper {
+            flex-direction: column;
+            margin: inherit auto;
+        }
+        .newspaper > * {
+            flex: 0 1;
+            margin: 0.1rem auto;
+            padding: 0.1rem .25rem;
+            max-width: 48%;
+        }
+    }
+}
