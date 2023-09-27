@@ -1,22 +1,9 @@
 # *
 User-agent: *
 Allow: /
-Disallow: /api
-Disallow: /kashakasha-friend/*
-Disallow: /kashakasha-trial
-Disallow: /kashakasha-webinar
-Disallow: /kashakasha-newsletter
-Disallow: /unsub
-Disallow: /marutto
-Disallow: /chirashi
-Disallow: /therapistaid
-Disallow: /policy
-Disallow: /legal
-Disallow: /thanks
-Disallow: /thanks/*
 
 # Host
-Host: https://gmap.alizza-ideal.com
+Host: https://www.alizza-ideal.com
 
 # Sitemaps
-Sitemap: https://gmap.alizza-ideal.com/sitemap.xml
+Sitemap: https://www.alizza-ideal.com/sitemap.xml
