@@ -48,7 +48,7 @@ export default function PostHero({ content, authorDetails, next, prev, children 
                 alt={title}
                 width={640}
                 height={480}
-                className="object-cover"
+                className="object-cover mx-auto"
               />
             </div>
           </Bleed>
