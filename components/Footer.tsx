@@ -22,11 +22,11 @@ export default function Footer() {
           <Link href="/">{siteMetadata.title}</Link>
         </div>
         <div className="mb-8 text-sm text-gray-500 dark:text-gray-400">
-          <Link href="/policy" className="underline text-blue-600">
+          <Link href="/policy" className="underline text-blue-600 dark:text-blue-300">
             個人情報保護方針
           </Link>
           {' | '}
-          <Link href="/legal" className="underline text-blue-600">
+          <Link href="/legal" className="underline text-blue-600 dark:text-blue-300">
             特定商取引法
           </Link>
         </div>
