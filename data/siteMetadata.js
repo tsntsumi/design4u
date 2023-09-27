@@ -2,9 +2,9 @@
 const siteMetadata = {
   title: 'DESIGN4U -- Design Realizes Your Ideal',
   author: 'TSUTSUMI Kikuo - Alizza Ideal',
-  headerTitle: 'DESIGN Ur PRESENTATION',
+  headerTitle: 'DESIGN 4 You',
   description:
-    '全てのプレゼンをデザインして、理想を現実化する -- 心理学を使って、そそるプレゼン資料をデザインすれば、口下手・コミュ障でも３つのエーション(-ATION)問題を解決。プレゼンテーション(Present-ATION)で伝えられ、ネゴシエーション(Negoti-ATION)で分かりあえ、コミュニケーション(Communic-ATION)で繋がれる。ビジネスでもプライベートでも人間関係がうまく行き、あなたの理想へ進む道のりもデザインできます',
+    '表現をデザインして、理想を現実化する -- 心理学を使って、そそるプレゼン資料をデザインすれば、口下手・コミュ障でも３つのエーション(Three-ATIONs)問題を解決。プレゼンテーション(Present-ATION)で伝えられ、ネゴシエーション(Negoti-ATION)で分かりあえ、コミュニケーション(Communic-ATION)で繋がれる。ビジネスでもプライベートでも人間関係がうまく行き、あなたの理想へ進む道のりもデザインできます',
   language: 'ja',
   theme: 'system', // system, dark or light
   siteUrl: 'https://www.alizza-ideal.com',

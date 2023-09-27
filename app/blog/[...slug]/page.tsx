@@ -126,7 +126,6 @@ export default async function Page({ params }: { params: { slug: string[] } }) {
       />
       <Layout content={mainContent} authorDetails={authorDetails} next={next} prev={prev}>
         <MDXLayoutRenderer code={post.body.code} components={components} toc={post.toc} />
-        <div>Layout: {post.layout}</div>
       </Layout>
     </>
   )
