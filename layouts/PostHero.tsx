@@ -41,7 +41,7 @@ export default function PostHero({ content, authorDetails, next, prev, children 
       <ScrollTopAndComment />
       <article>
         <div className="w-full">
-          <Bleed full={true}>
+          <Bleed>
             <div className="aspect-[2/1] w-full relative">
               <Image
                 src={displayImage}
