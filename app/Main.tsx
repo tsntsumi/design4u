@@ -28,7 +28,7 @@ export default function Home({ posts }) {
               className="object-cover block lg:hidden"
             />
           </div>
-          <div className="newspaper max-h-full md:max-h-[18rem] border-2 border-slate-100 rounded-lg">
+          <div className="newspaper max-h-full md:max-h-[18rem] border-2 dark:border-0 border-slate-100 rounded-lg">
             <p>
               コロナ後の仕事がリモートワーク・メインになってから、
               会議での説明がやりにくくなったと感じていませんか？
@@ -52,11 +52,20 @@ export default function Home({ posts }) {
               実は私も、うちのカミさんの実家とビデオチャットするとき、
               思いが通じないでヤキモキすることが多々ありありました。
             </p>
+            <p>
+              いま、
+              <Link
+                href="/blog/rules-for-presentaitions-that-stick-in-the-brain-directly"
+                className="underline decoration-dotted text-blue-900"
+              >
+                脳に刺さるデザインの重要性が増しています。
+              </Link>
+            </p>
           </div>
           <div className="text-right w-full px-4">
             <Link
               href="/blog/rules-for-presentaitions-that-stick-in-the-brain-directly"
-              className="text-xs underline text-blue-400"
+              className="text-xs underline decoration-dotted text-blue-400"
             >
               ブログへつづく...
             </Link>
@@ -67,7 +76,7 @@ export default function Home({ posts }) {
             Latest
           </h1>
         </div>
-        <ul className="divide-y divide-gray-200 dark:divide-gray-700">
+        <ul className="blog-posts divide-y divide-gray-200 dark:divide-gray-700">
           {!posts.length && 'No posts found.'}
           {posts.slice(0, MAX_DISPLAY).map((post) => {
             const { slug, date, title, summary, tags, images } = post
