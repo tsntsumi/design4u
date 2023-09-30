@@ -13,13 +13,13 @@ export default function Page() {
     <>
       <Script async src="https://js.stripe.com/v3/pricing-table.js"></Script>
       <SectionContainer className="pricing">
-        <div>
+        <div className="w-fit mx-auto">
           <stripe-pricing-table
-            pricing-table-id="prctbl_1NvmqLFI0fllSO6vpOELgeMU"
+            pricing-table-id="prctbl_1NwAqXFI0fllSO6vcoLaZOuV"
             publishable-key={`${process.env.NEXT_APP_STRIPE_APIKEY}`}
           ></stripe-pricing-table>
         </div>
-        <div>
+        <div className="w-fit mx-auto">
           <stripe-pricing-table
             pricing-table-id="prctbl_1Nvmx7FI0fllSO6vzpd2UIou"
             publishable-key={process.env.NEXT_APP_STRIPE_APIKEY}
