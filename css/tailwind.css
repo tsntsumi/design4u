@@ -34,14 +34,26 @@ input:-webkit-autofill:focus {
     body {
         text-align: justify;
     }
+    ul, ol {
+        @apply ml-10 pr-4 my-2 list-outside;
+    }
     ul {
-        @apply list-disc pl-8 pr-4 my-2;
+        @apply list-disc;
     }
-    dl dt {
-        @apply font-bold;
+    .blog-posts ul, ul.blog-posts {
+        @apply list-none pl-0;
     }
-    dl dd {
-        @apply indent-0 ml-8 mr-2;
+    ol {
+        @apply list-decimal;
+    }
+    ul li, ol li {
+        @apply pl-2;
+    }
+    dl > dt {
+        @apply font-bold mb-4;
+    }
+    dl > dd {
+        @apply indent-0 ml-8 mr-2 mb-4;
     }
     p {
         @apply indent-4 leading-relaxed my-1;
@@ -79,5 +91,21 @@ input:-webkit-autofill:focus {
             padding: 0.1rem .25rem;
             max-width: 48%;
         }
+    }
+
+    h1, h2, h3, h4 {
+        @apply my-3 font-bold;
+    }
+    h1 {
+        @apply text-2xl;
+    }
+    h2 {
+        @apply text-xl;
+    }
+    h3 {
+        @apply text-lg;
+    }
+    (.legal, .policy, .pricing) a {
+        @apply underline decoration-dotted;
     }
 }
