@@ -55,3 +55,5 @@ firestore-debug.log
 *-serviceaccountkey.json
 /app/tag-data.json
 
+sa-private-key.json
+
