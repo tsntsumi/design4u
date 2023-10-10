@@ -21,6 +21,23 @@ const site_url = process.env.SITE_URL || 'https://www.alizza-ideal.com'
 
 export const imageUrl = `${site_url}/images`
 
+export function DownloadButton({ downloadLink, cta = 'ダウンロード' }) {
+  return (
+    <Section className="text-center my-[16px]">
+      <Button
+        href={downloadLink}
+        className="bg-[orangered] rounded text-white text-[12pt] px-4 py-0 font-semibold no-underline text-center"
+      >
+        <Row className="py-0 my-0">
+          <Column align="right">
+            <Text>{cta || 'Download'}</Text>
+          </Column>
+        </Row>
+      </Button>
+    </Section>
+  )
+}
+
 export function ToClient({ userImage, teamImage }) {
   return (
     <Section>
