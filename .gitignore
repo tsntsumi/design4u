@@ -57,3 +57,4 @@ firestore-debug.log
 
 sa-private-key.json
 
+.stripe-secrets.txt
