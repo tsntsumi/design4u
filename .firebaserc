@@ -1,5 +1,18 @@
 {
   "projects": {
     "default": "alizza-ideal-web"
-  }
+  },
+  "targets": {
+    "alizza-ideal-web": {
+      "hosting": {
+        "design4u": [
+          "alizza-ideal-web",
+          "design4u",
+          "functions",
+          "hosting:site:design4u"
+        ]
+      }
+    }
+  },
+  "etags": {}
 }

@@ -28,52 +28,33 @@ export default function Home({ posts }) {
               className="object-cover block lg:hidden"
             />
           </div>
-          <div className="newspaper max-h-full md:max-h-[18rem] border-2 dark:border-0 border-slate-100 rounded-lg">
+          <div className="newspaper md:max-h-[33vh] border-2 dark:border-0 border-slate-100 rounded-lg overflow-scroll">
+            <p>あなたのお店がなかなか検索の上位に表示されなくて悩んでいませんか？</p>
             <p>
-              コロナ後の仕事がリモートワーク・メインになってから、
-              会議での説明がやりにくくなったと感じていませんか？
+              SEOにもMEOにもお金をかけて検索上位に表示させたのに、来店数が伸びなくて困っていませんか？
             </p>
-            <ul>
-              <li>会議だけでなく、上司へのプロジェクト進捗の説明</li>
-              <li>新企画の提案のときとかでも、、、</li>
-              <li>企業によっては、お客様との打ち合わせ</li>
-              <li>商談のときの商品の提案説明</li>
-            </ul>
+            <p>もしそうならストーリーの力でローカル・ブランディングをしてください。</p>
             <p>
-              仕事の上だけでなく、遠く離れた両親や親戚などとも、
-              ビデオチャットで会話することも多くなってきました。
-              あるいは、大切に思っているヒトとかとも・・・。
+              ローカル・ブランディングは、SEOやMEOといった
+              「検索されたときだけ、店の名前を上位に表示して目立たさせる」のではありません。
             </p>
             <p>
-              オンラインでの対話では、相手の息遣いや、目線の先、
-              手の動きがはっきりと感じることができません。
+              ローカル・ブランディングは、実際にお店に来店させる効果があります。
+              いわば、「あなたのお店を、お客さんの心の中の上位に引き上げて目立たせる」ものなのです。
             </p>
             <p>
-              そのため、ただいいたいことを話しているだけでは、
-              思いが伝わらないし、逆に相手の思いを感じることができません。
+              お客さんがあなたのお店に愛着をもって、ファンになり、
+              集客しなくてもひとりでにみんなが集まるようになる。
+            </p>
+            <p>あなたのお店がそんな風になったらどうでしょうか？</p>
+            <p>
+              売上が安定して、働く時間にも余裕が出て、あなたもお客さんもハッピーになれると思いませんか？
             </p>
             <p>
-              そんなわけで、いま、
-              <Link
-                href="/blog/rules-for-presentaitions-that-stick-in-the-brain-directly"
-                className="underline decoration-dotted text-blue-900"
-              >
-                脳に刺さるプレゼン・デザインの重要性が増しているんです。
-              </Link>
+              ローカル・ブランディングでは、単にロゴやデザインでかっこよく魅せるのではなく、
+              あなたのストーリーであなたの思いをブランディングします。
             </p>
-            <p>
-              なぜなら、脳に刺さるプレゼン・デザインで作成したプレゼンを行えば、
-              こちらの思いを効果的に相手に伝えることができ、
-              相手の思いを受け取ることができるからです。
-            </p>
-          </div>
-          <div className="text-right w-full px-4">
-            <Link
-              href="/blog/rules-for-presentaitions-that-stick-in-the-brain-directly"
-              className="text-xs underline decoration-dotted text-blue-400"
-            >
-              ブログへつづく...
-            </Link>
+            <p>だからこそ、お客さんの心に影響を与え、強固な愛着を得ることができるのです。</p>
           </div>
         </section>
         <div className="space-y-2 pb-8 pt-6 md:space-y-5">
@@ -154,10 +135,10 @@ export default function Home({ posts }) {
         </div>
       )}
       {/* {siteMetadata.newsletter?.provider && (
-              <div className="flex items-center justify-center pt-4">
-              <NewsletterForm />
-              </div>
-              )} */}
+          <div className="flex items-center justify-center pt-4">
+          <NewsletterForm />
+          </div>
+          )} */}
     </>
   )
 }

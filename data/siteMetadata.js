@@ -1,21 +1,21 @@
 /** @type {import("pliny/config").PlinyConfig } */
 const siteMetadata = {
-  title: 'DESIGN4U -- Design Realizes Your Ideal',
+  title: 'LOCAL BRAND STORY -- あなたのお店をストーリーでブランディング',
   author: 'TSUTSUMI Kikuo - Alizza Ideal',
-  headerTitle: 'DESIGN 4 You',
+  headerTitle: 'BRAND STORYTELLER',
   description:
-    '表現をデザインして、理想を現実化する -- 心理学を使って、そそるプレゼン資料をデザインすれば、口下手・コミュ障でも３つのエーション(Three-ATIONs)問題を解決。プレゼンテーション(Present-ATION)で伝えられ、ネゴシエーション(Negoti-ATION)で分かりあえ、コミュニケーション(Communic-ATION)で繋がれる。ビジネスでもプライベートでも人間関係がうまく行き、あなたの理想へ進む道のりもデザインできます',
+    'あなたのお店がなかなか検索の上位に表示されなくて悩んでいませんか？SEOにもMEOにもお金をかけて検索上位に表示されたのに、来店数が伸びなくて悩んでいませんか？もしそうならローカル・ブランディングをしてください。SEOにもMEOにも来店数にも大きな効果があります。詳しく説明させてください。',
   language: 'ja',
-  theme: 'system', // system, dark or light
+  theme: 'light', // system, dark or light
   siteUrl: 'https://www.alizza-ideal.com',
   siteRepo: 'https://github.com/tsntsumi/design4u',
-  siteLogo: '/static/images/logo.png',
-  socialBanner: '/static/images/twitter-card.png',
+  siteLogo: '/images/logo.svg',
+  socialBanner: '/images/banner-mobile.svg',
   email: 'kikuo@alizza-ideal.com',
   github: 'https://github.com/tsntsumi',
   twitter: 'https://twitter.com/tsntsumi',
   facebook: 'https://facebook.com/alizza.ideal',
-  youtube: 'https://youtube.com/design-for-u',
+  youtube: 'https://youtube.com/brandteller',
   locale: 'ja-JP',
   analytics: {
     // If you want to use an analytics provider you have to add it to the

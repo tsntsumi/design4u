@@ -10,7 +10,7 @@ const ContentSecurityPolicy = `
   script-src 'self' 'unsafe-eval' 'unsafe-inline' giscus.app analytics.umami.is;
   style-src 'self' 'unsafe-inline';
   img-src * blob: data:;
-  media-src *.s3.amazonaws.com;
+  media-src *.alizza-ideal.com 192.168.0.10:5500 127.0.0.1:3000 localhost:3000 design4u*.web.app;
   connect-src *;
   font-src 'self';
   frame-src giscus.app
@@ -66,7 +66,7 @@ module.exports = () => {
       dirs: ['app', 'components', 'layouts', 'scripts'],
     },
     images: {
-      domains: ['picsum.photos'],
+      domains: ['design4u*.web.app', '*.alizza-ideal.com'],
     },
     experimental: {
       appDir: true,

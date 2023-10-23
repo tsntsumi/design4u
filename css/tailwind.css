@@ -80,7 +80,7 @@ input:-webkit-autofill:focus {
         padding: 0.1rem .25rem;
         max-width: 100%;
     }
-    @media(min-width: 640px) {
+    @media(min-width: 800px) {
         .newspaper {
             flex-direction: column;
             margin: inherit auto;

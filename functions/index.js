@@ -9,6 +9,7 @@
 
 const { onRequest } = require('firebase-functions/v2/https')
 const logger = require('firebase-functions/logger')
+
 const functions = require('firebase-functions')
 const rfc2047 = require('rfc2047')
 const cors = require('cors')({ origin: true })
@@ -19,20 +20,16 @@ const gmailEmail = process.env.GMAIL_EMAIL
 const gmailPassword = process.env.GMAIL_PASSWORD
 const hostName = process.env.HOST_NAME
 
-// Create and deploy your first functions
-// https://firebase.google.com/docs/functions/get-started
-
-const leadById = async (subscid, status) => {
-  const param = !subscid ? `status=${status}` : `subscid=${subscid}&status=${status}`
+const leadById = async (subsc_id, status) => {
+  const param = !subsc_id ? `status=${status}` : `subsc_id=${subsc_id}&status=${status}`
   const res = await fetch(`${hostName}/db/leads?${param}`, {
     method: 'GET',
   })
   const leads = await res.json()
-  return Array.isArray(leads) ? leads : [leads]
+  return leads
 }
 
-const letterByUrl = async (lead) => {
-  const url = lead?.url
+const letterByUrl = async (url) => {
   if (!url) {
     return { subj: '', msg: '' }
   }
@@ -96,10 +93,6 @@ const sendByGmail = async (lead, letter) => {
   }
 }
 
-/*
-addStudent (POST)
-params: name, email, score
-*/
 exports.sendNewsletter = onRequest((request, response) => {
   cors(request, response, async () => {
     if (request.method !== 'POST') {
@@ -107,11 +100,11 @@ exports.sendNewsletter = onRequest((request, response) => {
       response.status(405).json({ message: 'Method not allowed' })
       return
     }
-    const { subscid, status } = request.body
-    const leads = await leadById(subscid || '', status)
+    const { subsc_id, status } = request.body
+    const leads = await leadById(subsc_id || '', status)
     const sentResults = []
     for await (const lead of leads) {
-      const letter = await letterByUrl(lead)
+      const letter = await letterByUrl(lead.letter)
       const sent = await sendByGmail(lead, letter)
       sentResults.push(sent)
     }
