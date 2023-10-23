@@ -1,0 +1,11 @@
+[
+  {
+    "id":"stepmail-001",
+    "next":{
+      "converter":null,"_key":{"path":{"segments":["projects","alizza-ideal-web","databases","(default)","documents","newsletters","stepmail-002"],"offset":5,"len":2}},
+      "type":"document","firestore":{
+        "app":{"_isDeleted":false,"_options":{"apiKey":"AIzaSyDGhufj6QaOjfhjoRfxFvDA52yNLRrANik","authDomain":"alizza-ideal-web.firebaseapp.com","projectId":"alizza-ideal-web","storageBucket":"alizza-ideal-web.appspot.com","messagingSenderId":"151629233396","appId":"1:151629233396:web:20347c60ffe74a251db2a1","measurementId":"G-QW8TTJNKLZ"},"_config":{"name":"[DEFAULT]","automaticDataCollectionEnabled":false},"_name":"[DEFAULT]","_automaticDataCollectionEnabled":false,"_container":{"name":"[DEFAULT]","providers":{}}},
+        "databaseId":{"projectId":"alizza-ideal-web","database":"(default)"},"settings":{"host":"192.168.0.10:8080","ssl":false,"ignoreUndefinedProperties":false,"cacheSizeBytes":41943040,"experimentalForceLongPolling":false,"experimentalAutoDetectLongPolling":true,"experimentalLongPollingOptions":{},"useFetchStreams":true}}},
+    "letter":"stepmail-001"},
+  {"id":"stepmail-002","next":null,"letter":"stepmail-002"}
+]
