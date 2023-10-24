@@ -1,10 +1,10 @@
 /** @type {import("pliny/config").PlinyConfig } */
 const siteMetadata = {
-  title: 'LOCAL BRAND STORY -- あなたのお店をストーリーでブランディング',
+  title: 'LOCAL BRANDING STORY -- あなたのお店をストーリーでブランディング',
   author: 'TSUTSUMI Kikuo - Alizza Ideal',
   headerTitle: 'BRAND STORYTELLER',
   description:
-    'あなたのお店がなかなか検索の上位に表示されなくて悩んでいませんか？SEOにもMEOにもお金をかけて検索上位に表示されたのに、来店数が伸びなくて悩んでいませんか？もしそうならローカル・ブランディングをしてください。SEOにもMEOにも来店数にも大きな効果があります。詳しく説明させてください。',
+    'あなたには、選ばれるべき独自性がありますか？あなたがライバルと差別化したいなら、あなたのストーリーで独自性を見つけ、差別化することができます',
   language: 'ja',
   theme: 'light', // system, dark or light
   siteUrl: 'https://www.alizza-ideal.com',
