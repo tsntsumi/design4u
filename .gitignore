@@ -58,3 +58,6 @@ firestore-debug.log
 sa-private-key.json
 
 /.stripe-secrets.txt
+
+/public/videos/*.mp4
+/public/videos/*.mov
