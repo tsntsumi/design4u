@@ -15,6 +15,13 @@ export default function Projects() {
           <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">
             私たちの製品・サービスのショーケースです
           </p>
+          <p>
+            只今、１００％ディスカウント創業セール行ってます。限定１０名、１０月２８日２３：５９まで。
+          </p>
+          <p>
+            プロモーションコード：<code>PROMO2023EX10</code>
+          </p>
+          <p>をお支払いの画面で入力してください</p>
         </div>
         <div className="container py-12">
           <div className="-m-4 flex flex-wrap">
