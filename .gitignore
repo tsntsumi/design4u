@@ -61,3 +61,4 @@ sa-private-key.json
 
 /public/videos/*.mp4
 /public/videos/*.mov
+/..bfg-report/
